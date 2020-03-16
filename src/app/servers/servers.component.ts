@@ -20,6 +20,6 @@ export class ServersComponent implements OnInit {
   onReload() {
     this.router.navigate(['servers'], {relativeTo: this.rout})
       .then((sucess) => {})
-      .catch((error) => { } );
+      .catch((error) => {} );
   }
 }
