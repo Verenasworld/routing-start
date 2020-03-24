@@ -27,6 +27,6 @@ export class UserComponent implements OnInit, OnDestroy {
       );
   }
 ngOnDestroy(): void {
-    this.paramsSubcription.unsubscribe();
+    this.paramsSubscription.unsubscribe();
   }
 }
